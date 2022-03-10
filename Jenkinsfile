@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "willbla" with your own Docker Hub username
+        //be sure to replace "willbla" with your own Docker Hub usernamettt
         DOCKER_IMAGE_NAME = "eawhiteaws/train-schedule"
     }
     stages {
